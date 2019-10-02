@@ -1,0 +1,151 @@
+@media (max-width: 992px) {
+    .list-l:before, .line-r:before {
+        height: 56px;
+    }
+
+    .hexagon {
+        width: 101px;
+        height: 116px;
+        margin: 3px;
+    }
+
+    .about .hexagon {
+        min-width: 101px;
+    }
+
+    #hexagon:after, #get:after, #get:before, main:before {
+        width: 710px;
+    }
+
+    .about_title h4 {
+        font-size: 22px;
+    }
+
+    .about_title h2 {
+        font-size: 16px;
+    }
+
+    .about_intro {
+        font-size: 10px;
+    }
+
+    .contacts_information p {
+        font-size: 10px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .contacts_information p {
+        font-size: 8px;
+    }
+
+    .about_title h4 {
+        font-size: 18px;
+    }
+
+    .about_title h2 {
+        font-size: 14px;
+    }
+
+    .about_intro {
+        font-size: 9px;
+    }
+
+    logo:before {
+        border-width: 14px 30px 0 30px;
+        bottom: -13px;
+        left: calc(50% - 30px);
+    }
+
+    .contact_row {
+        flex-direction: column;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .hide_logo {
+        display: none;
+    }
+
+    .contacts_information {
+        margin-top: 20px;
+    }
+
+    .about .hexagon {
+        margin-bottom: 20px;
+    }
+
+    .about_content {
+        padding-left: 0;
+    }
+
+    #about {
+        padding: 30px 0;
+    }
+
+    footer {
+        justify-content: center;
+    }
+
+    #hexagon:after, #get:after, #get:before, main:before {
+        width: 485px;
+    }
+}
+
+@media (max-width: 540px) {
+    .contacts_information p {
+        font-size: 6px;
+    }
+
+    .about_title h4 {
+        font-size: 16px;
+    }
+
+    .about_title h2 {
+        font-size: 12px;
+    }
+
+    .about_intro {
+        font-size: 8px;
+    }
+
+    .icon-list {
+        font-size: 1rem;
+    }
+
+    .get_header h4 {
+        font-size: 1.1rem;
+    }
+
+    .get_header h3 {
+        font-size: 2.4rem;
+    }
+
+    .hexagon {
+        width: 60px;
+        height: 72px;
+        margin: 2px;
+    }
+
+    .about .hexagon {
+        min-width: 60px;
+    }
+
+    #hexagon {
+        padding: 30px 0;
+    }
+
+    #hexagon:after, #get:after, #get:before, main:before {
+        width: 275px;
+    }
+
+    .list-l:before, .line-r:before {
+        height: 30px;
+    }
+}
+
+/*# sourceMappingURL=maps/main.css.map */
